@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".activity.PlayStore"
-            android:label="@string/title_activity_play_store"/>
+            android:label="Play Store"/>
     </application>
 
 </manifest>
