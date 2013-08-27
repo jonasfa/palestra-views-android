@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QConAndroid.PlayStore" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/play_store_action_bar_style</item>
+    </style>
+
+    <style name="play_store_action_bar_style" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">?play_color</item>
+    </style>
+
+
+    <style name="Theme.QConAndroid.PlayStore.Red">
+        <item name="play_color">#800</item>
+    </style>
+
+    <style name="Theme.QConAndroid.PlayStore.Green">
+        <item name="play_color">#080</item>
+    </style>
+
+    <style name="Theme.QConAndroid.PlayStore.Blue">
+        <item name="play_color">#008</item>
+    </style>
+</resources>
