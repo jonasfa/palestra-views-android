@@ -22,6 +22,10 @@
         <activity
             android:name=".activity.PlayStore"
             android:label="Play Store Colors"/>
+        <activity
+            android:name=".activity.Qoiza"
+            android:label="Qoiza Box"
+            android:theme="@style/Theme.QConAndroid.Qoiza"/>
     </application>
 
 </manifest>

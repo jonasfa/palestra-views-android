@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QConAndroid.Qoiza" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="boxViewStyle">@style/Widget.QConAndroid.Qoiza.BoxView</item>
+        <item name="boxViewTitleStyle">@style/Widget.QConAndroid.Qoiza.BoxViewTitle</item>
+    </style>
+</resources>
