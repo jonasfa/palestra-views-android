@@ -21,7 +21,7 @@
         </activity>
         <activity
             android:name=".activity.PlayStore"
-            android:label="Play Store"/>
+            android:label="Play Store Colors"/>
     </application>
 
 </manifest>

@@ -20,7 +20,7 @@ public class PlayStore extends FragmentActivity {
         setContentView(R.layout.play_store);
 
         ViewPager mViewPager = (ViewPager) findViewById(R.id.pager);
-        mViewPager.setAdapter(new SectionsPagerAdapter(getSupportFragmentManager()));
+        mViewPager.setAdapter(new OneEmptyFragmentPagerAdapter(getSupportFragmentManager()));
     }
 
     public void launchRed(View view) {
@@ -42,8 +42,8 @@ public class PlayStore extends FragmentActivity {
         startActivity(intent);
     }
 
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
-        public SectionsPagerAdapter(FragmentManager fm) {
+    public class OneEmptyFragmentPagerAdapter extends FragmentPagerAdapter {
+        public OneEmptyFragmentPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
