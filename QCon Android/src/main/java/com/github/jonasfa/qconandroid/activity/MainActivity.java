@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
-    static final Class[] activities = new Class[]{PlayStore.class, Qoiza.class};
+    static final Class[] activities = new Class[]{MenuButton.class, PlayStore.class, Qoiza.class};
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

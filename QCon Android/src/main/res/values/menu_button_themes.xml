@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QConAndroid.MenuButton"
+           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="menuButtonStyle">@style/Widget.QConAndroid.MenuButton</item>
+    </style>
+
+</resources>

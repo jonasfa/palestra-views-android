@@ -20,6 +20,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".activity.MenuButton"
+            android:label="Menu Button"
+            android:theme="@style/Theme.QConAndroid.MenuButton"/>
+        <activity
             android:name=".activity.PlayStore"
             android:label="Play Store Colors"/>
         <activity
